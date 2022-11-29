@@ -1,6 +1,8 @@
 # Covid-19
-Data Cleaning in python (Pandas)
+Data Cleaning in python (Pandas).
+
 Dataset was downloaded from Kaggle. The original dataset consists of 2676311 rows and 33 columns.
+
 After cleaning 11 columns and 2676311 are left for furhther data visualization
 RangeIndex: 2676311 entries, 0 to 2676310
 Data columns (total 11 columns):
@@ -17,3 +19,5 @@ Data columns (total 11 columns):
  8   outcome                 object        
  9   travel_history_binary   object        
  10  confirmation_date       datetime64[ns]
+
+The repository consists of original dataset, cleaned dataset with python pandas library and Answer sheets to SQL problem solving from Task#1. 
