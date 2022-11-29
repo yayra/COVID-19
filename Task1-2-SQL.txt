@@ -1,0 +1,20 @@
+--Task2. Расчета оборота от каждого потребителя
+
+SELECT c.customerNumber, c.CustomerName,
+       Sum(od.quantityOrdered * od.priceEach) AS TotalDollarAmount 
+FROM customers  c
+     JOIN orders  o
+  ON c.CustomerNumber = o.customerNumber
+     JOIN orderdetails od
+  ON od.orderNumber = o.order.Number
+GROUP BY c.customerNumber, c.CustomerName
+Order BY  Sum(od.quantityOrdered * od.priceEach) DESC;
+
+
+
+-- Расчета оборота по дате платежа   (изменено)
+
+SELECT paymentDate, amount
+FROM payments
+GROUP BY paymentDate
+ORDER BY amount;
