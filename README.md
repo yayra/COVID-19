@@ -20,4 +20,4 @@ Data columns (total 11 columns):
  9   travel_history_binary   object        
  10  confirmation_date       datetime64[ns]
 
-The repository consists of original dataset, cleaned dataset with python pandas library and Answer sheets to SQL problem solving from Task#1. 
+The repository consists of original dataset('archieve.zip), cleaned dataset with python pandas library('cleaned_dataset.zip), data cleaning python code in Google Colab('Dataset_Cleaning_Covid_19.ipynb) and Answer sheets to SQL problems solved from Task#1. 
