@@ -1,6 +1,6 @@
 # Covid-19
 
-1. The repository consists of original dataset('archieve.zip), cleaned dataset with python pandas library('cleaned_dataset.zip), data cleaning python code in Google Colab('Dataset_Cleaning_Covid_19.ipynb) and Answer sheets to SQL problems solved from Task#1. 
+1. The repository consists of original dataset('archieve.zip), clean dataset with python pandas library('clean_dataset.zip), data cleaning python code in Google Colab('Dataset_Cleaning_Covid_19.ipynb) and Answer sheets to SQL problems solved from Task#1. 
 
 2. Link to Tableau Public with data visualization https://public.tableau.com/app/profile/sora3932/viz/COVID-19_2020/Covid-19 .
 
